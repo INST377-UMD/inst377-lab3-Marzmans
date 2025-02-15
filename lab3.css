@@ -61,8 +61,8 @@ nav ul li a:hover {
 
 /* Form */
 #name {
-    transition: width 0.5;
-    width: 150px;
+    transition: width 0.5s; /*Smoother change to larger text box and back */
+    width: 100px;
 }
 
 #name:focus {
