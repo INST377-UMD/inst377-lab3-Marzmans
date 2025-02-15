@@ -1,0 +1,70 @@
+/*  Font */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: plum;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* Header and Footer */
+.hf {
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: blue;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Main and Sidebar*/
+.overall {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.main-content {
+    width: 60%;
+    background-color: orangered;
+    padding: 15px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: lightcoral;
+    padding: 15px;
+}
+
+.sidebar:hover {
+    background-color: peru;
+}
+
+/* Form */
+#name {
+    transition: width 0.5s; /*Smoother change to larger text box and back */
+    width: 100px;
+}
+
+#name:focus {
+    width: 200px;
+}
